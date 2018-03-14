@@ -1,3 +1,3 @@
-# FILI RECOMIENDA:
+#FILI RECOMIENDA:
 
-- [CSS GRID VS FLEXBOX](https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf)
+- [CSS GRID VS FLEXBOX](https://goo.gl/1dGZc9)
