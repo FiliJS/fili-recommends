@@ -1,0 +1,112 @@
+:root {
+    --dark: #11081F;
+    --instagram: to right, #ffda75, #ff3a49, #ff3a49, #e518a1, #6634e1;
+}
+
+body {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.header {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem 0.8rem;
+    color: var(--dark);
+}
+
+.content {
+    padding: 25px 15px 35px;
+}
+
+.post {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.post__title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.post__title .post__link .post__icon {
+    font-size: 35px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.post__title .post__link .post__text {
+    vertical-align: middle;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8rem;
+    bottom: 0;
+    background-color: blue;
+    background: linear-gradient(var(--instagram));
+}
+
+.footer .footer__link {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.footer .footer__link .footer__icon {
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.footer .footer__link .footer__text {
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+@media all and (min-width: 768px) {
+    
+    .header {
+        text-align: left;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .content {
+        padding: 30px 50px 40px;
+    }
+    
+}
+
+@media all and (min-width: 1024px) {
+    .content {
+        padding: 40px 60px 60px;
+    }
+
+    .post {
+        margin-bottom: 35px;
+    }
+    
+    .footer {
+        padding: 2rem;
+    }
+}
