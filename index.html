@@ -3,9 +3,10 @@
 <head>
     <title>Fili Recommends</title>
 
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./assets/styles/icons.css">
     <link rel="stylesheet" href="./assets/styles/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Dosis:700|Montserrat:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito:300,400,700" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,73 +15,152 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="header__title"> Fili Recomienda:</h1>
+        <div class="u-wrap-center">
+            <h1 class="header__title">
+                <a href="https://filijs.github.io/instagram/" class="header__link u-display-in-block">
+                    <span class="header__text u-text-light">Fili</span>
+                    <strong class="header__text u-text-bold">Santillán</strong>
+                </a>
+            </h1>
+            <span class="header__subtitle u-display-in-block">Aprende y crea conmigo ...</span>
+        </div>
     </header>
 
-    <section class="content">
-
-        <article class="post">
-            <h2 class="post__title">
-                <a href="https://goo.gl/9MrPUk" class="post__link">
-                    <i class="post__icon icon-medium"></i>
-                    <span class="post__text">Las PWA han llegado a iOS 🔥</span>
-                </a>
-            </h2>
+    <section class="channelList u-wrap-center">
+        <article class="channel">
+            <div class="channel__logo">
+                <i class="channel__icon o-icon-link"></i>
+            </div>
+            <div class="channel__name">
+                <span class="channel__text">Blog</span>
+            </div>
         </article>
-
-        <article class="post">
-            <h2 class="post__title">
-                <a href="https://goo.gl/EPmXPa" class="post__link">
-                    <i class="post__icon icon-youtube"></i>
-                    <span class="post__text">Cuál es el escándalo de Cambridge Analytica y Facebook</span>
-                </a>
-            </h2>
+        <article class="channel">
+            <div class="channel__logo">
+                <i class="channel__icon o-icon-link"></i>
+            </div>
+            <div class="channel__name">
+                <span class="channel__text">Fili Core</span>
+            </div>
         </article>
-
-        <article class="post">
-            <h2 class="post__title">
-                <a href="https://goo.gl/eg64wH" class="post__link">
-                    <i class="post__icon icon-facebook"></i>
-                    <span class="post__text">¡Borra Facebook! Todo sobre el escándalo de Facebook</span>
-                </a>
-            </h2>
+        <article class="channel">
+            <div class="channel__logo">
+                <i class="channel__icon o-icon-youtube"></i>
+            </div>
+            <div class="channel__name">
+                <span class="channel__text">Youtube</span>
+            </div>
         </article>
-
-        <article class="post">
-            <h2 class="post__title">
-                <a href="https://goo.gl/huCCui" class="post__link">
-                    <i class="post__icon icon-link"></i>
-                    <span class="post__text">Informe Anual Sobre Desarrolladores - Stack Overflow</span>
-                </a>
-            </h2>
+        <article class="channel">
+            <div class="channel__logo">
+                <i class="channel__icon o-icon-link"></i>
+            </div>
+            <div class="channel__name">
+                <span class="channel__text">Newsletter</span>
+            </div>
         </article>
-
-        <article class="post">
-            <h2 class="post__title">
-                <a href="https://goo.gl/9UmFNh" class="post__link">
-                    <i class="post__icon icon-link"></i>
-                    <span class="post__text">Web Share API</span>
-                </a>
-            </h2>
-        </article>
-
-        <article class="post">
-            <h2 class="post__title">
-                <a href="https://goo.gl/1dGZc9" class="post__link">
-                    <i class="post__icon icon-css3"></i>
-                    <span class="post__text">CSS Grid VS Flexbox</span>
-                </a>
-            </h2>
-        </article>
-
     </section>
 
-    <footer class="footer">
-        <a href="https://www.instagram.com/fili.js/" class="footer__link">
-            <i class="footer__icon icon-instagram"></i>
-            <span class="footer__text">fili.js</a>
+    <section class="content u-wrap-center">
+        <a href="https://goo.gl/9MrPUk" class="block block--medium u-center-content">
+            <div class="block-wrapper">
+                <div class="block__logo">
+                    <i class="block__icon o-icon-medium"></i>
+                </div>
+                <div class="block__title">
+                    <h2 class="block__text">Las PWA han llegado a iOS</h2>
+                </div>
+            </div>
         </a>
-    </footer>
+
+        <a href="https://goo.gl/EPmXPa" class="block block--youtube u-center-content">
+            <div class="block-wrapper">
+                <div class="block__logo">
+                    <i class="block__icon o-icon-youtube"></i>
+                </div>
+                <div class="block__title">
+                    <h2 class="block__text">Cuál es el escándalo de Cambridge Analytica y Facebook</h2>
+                </div>
+            </div>
+        </a>
+        
+        <a href="https://goo.gl/eg64wH" class="block block--platzi u-center-content">
+            <div class="block-wrapper">
+                <div class="block__logo">
+                    <i class="block__icon o-icon-link"></i>
+                </div>
+                <div class="block__title">
+                    <h2 class="block__text">¡Borra Facebook! Todo sobre el escándalo de Facebook</h2>
+                </div>
+            </div>
+        </a>
+        
+        <a href="https://goo.gl/huCCui" class="block u-center-content">
+            <div class="block-wrapper">
+                <div class="block__logo">
+                    <i class="block__icon o-icon-link"></i>
+                </div>
+                <div class="block__title">
+                    <h2 class="block__text">Informe Anual Sobre Desarrolladores - Stack Overflow</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://goo.gl/9UmFNh" class="block block--fili u-center-content">
+            <div class="block-wrapper">
+                <div class="block__logo">
+                    <i class="block__icon o-icon-link"></i>
+                </div>
+                <div class="block__title">
+                    <h2 class="block__text">Web Share API</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://goo.gl/1dGZc9" class="block block--medium u-center-content">
+            <div class="block-wrapper">
+                <div class="block__logo">
+                    <i class="block__icon o-icon-medium"></i>
+                </div>
+                <div class="block__title">
+                    <h2 class="block__text">CSS Grid VS Flexbox</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://atomiks.github.io/30-seconds-of-css/" class="block block--page u-center-content">
+            <div class="block-wrapper">
+                <div class="block__logo">
+                    <i class="block__icon o-icon-css3"></i>
+                </div>
+                <div class="block__title">
+                    <h2 class="block__text">30 Seconds of CSS</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://medium.com/@ubykuo/event-loop-la-naturaleza-asincr%C3%B3nica-de-javascript-78d0a9a3e03d" class="block block--medium u-center-content">
+            <div class="block-wrapper">
+                <div class="block__logo">
+                    <i class="block__icon o-icon-javascript"></i>
+                </div>
+                <div class="block__title">
+                    <h2 class="block__text">Event Loop: la naturaleza asincrónica de Javascript</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://getkepture.com/?ref=producthunt" class="block block--page u-center-content">
+            <div class="block-wrapper">
+                <div class="block__logo">
+                    <i class="block__icon o-icon-link"></i>
+                </div>
+                <div class="block__title">
+                    <h2 class="block__text">App: Kepture</h2>
+                </div>
+            </div>
+        </a>
+    </section>
 
 </body>
 </html>
