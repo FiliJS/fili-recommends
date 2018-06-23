@@ -57,7 +57,6 @@
   }
   .o-icon-apple:before {
     content: "\e909";
-    color: #999;
   }
   .o-icon-bitbucket:before {
     content: "\e90a";
