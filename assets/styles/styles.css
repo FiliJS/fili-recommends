@@ -22,10 +22,16 @@
     --color-pink: #FA709A;
 
     --color-apple: #999999;
+    --color-facebook: #3b5998;
+    --color-stackoverflow: #ef8236;
     --color-youtube-red: #ff0000;
     --color-youtube-dark: #282828;
     --color-medium: #00ab6c;
     --color-platzi: #98ca3f;
+
+    --color-html: #E16E3C;
+    --color-css: #54A8D7;
+    --color-js: #F4DE51;
 
     --gradient-default: 130deg, var(--color-blue) 0%, var(--color-purple) 100%;
     --gradient-secondary: 130deg, var(--color-yellow) 0%, var(--color-pink) 100%;s
@@ -177,6 +183,12 @@ img {
 .channel .channel__logo,
 .channel .channel__name {
     display: inline-block;
+    vertical-align: 50%;
+}
+
+.channel .channel__logo .channel__icon,
+.channel .channel__name .channel__text {
+    vertical-align: middle;
 }
 
 .channel .channel__logo {
@@ -213,30 +225,38 @@ img {
     display: none;
 }
 
+.block--fili {
+    background-image: linear-gradient(var(--gradient-secondary));
+    color: white;
+}
+
 .block--apple {
     background-color: var(--color-apple);
+}
+
+.block--facebook {
+    background-color: var(--color-facebook);
+}
+
+.block--stackoverflow {
+    background-color: var(--color-stackoverflow);
 }
 
 .block--youtube {
     background-color: var(--color-youtube-dark);
 }
 
-.block--medium {
-    background-color: var(--color-medium);
+.block--html {
+    background-color: var(--color-html);
 }
 
-.block--platzi {
-    background-color: var(--color-platzi);
+.block--css {
+    background-color: var(--color-css);
+}
+
+.block--js {
+    background-color: var(--color-js);
     color: var(--color-dark);
-}
-
-.block--page {
-    background-color: var(--color-blue);
-}
-
-.block--fili {
-    background-image: linear-gradient(var(--gradient-secondary));
-    color: white;
 }
 
 .block:first-child {
