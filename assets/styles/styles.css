@@ -22,6 +22,7 @@
     --color-pink: #FA709A;
 
     --color-apple: #999999;
+    --color-android: #a4c639;
     --color-facebook: #3b5998;
     --color-stackoverflow: #ef8236;
     --color-youtube-red: #ff0000;
@@ -232,6 +233,10 @@ img {
 
 .block--apple {
     background-color: var(--color-apple);
+}
+
+.block--android {
+    background-color: var(--color-android);
 }
 
 .block--facebook {
