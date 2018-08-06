@@ -35,7 +35,7 @@
     --color-js: #F4DE51;
 
     --gradient-default: 130deg, var(--color-blue) 0%, var(--color-purple) 100%;
-    --gradient-secondary: 130deg, var(--color-yellow) 0%, var(--color-pink) 100%;s
+    --gradient-secondary: 130deg, var(--color-yellow) 0%, var(--color-pink) 100%;
 
     --spacer-size: 1.5rem;
 
@@ -171,10 +171,10 @@ img {
     background-color: var(--color-pink);
 }
 
-/* .channel:nth-child(3) {
+.channel:nth-child(3) {
     background-color: var(--color-yellow);
     color: var(--color-dark);
-} */
+}
 
 .channel:last-child {
     background-color: var(--color-purple);
