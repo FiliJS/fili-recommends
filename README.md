@@ -1,8 +1,17 @@
-# FILI RECOMIENDA:
+# Instagram
 
-- [CSS GRID VS FLEXBOX](https://goo.gl/1dGZc9)
-- [WEB SHARE API](https://goo.gl/9UmFNh)
-- [DEVELOPER SURVEY RESULTS 2018](https://goo.gl/huCCui)
-- [¡BORRA FACEBOOK! TODO SOBRE EL ESCÁNDALO DE FACEBOOK](https://goo.gl/eg64wH)
-- [CUÁL ES EL ESCÁNDALO DE CAMBRIDGE ANALYTICA Y FACEBOOK](https://goo.gl/EPmXPa)
-- [LAS PWA HAN LLEGADO A IOS](https://goo.gl/9MrPUk)
+## Primera etapa:
+- [App: Kepture](https://getkepture.com/?ref=producthunt)
+- [Event Loop: la naturaleza asincrónica de Javascript](https://medium.com/@ubykuo/event-loop-la-naturaleza-asincr%C3%B3nica-de-javascript-78d0a9a3e03d)
+- [30 Seconds of CSS](https://atomiks.github.io/30-seconds-of-css/)
+- [CSS Grid vs Flexbox](http://bit.ly/2J5sxyS)
+- [Web Share API](http://bit.ly/2zmoI8B)
+- [Informe anual sobre desarrolladores - Stack Overflow](http://bit.ly/2NzUFO0)
+- [¡Borra Facebook! Todo sobre el escándalo de Facebook](http://bit.ly/2J4U7fr)
+- [Cuál es el escándalo de Cambridge Analytica y Facebook](http://bit.ly/2NzJcOg)
+- [Las PWA han llegado a iOS](http://bit.ly/2N2rWQW)
+
+## Segunda etapa:
+- [Construyendo una estructura web con CSS Grid](http://bit.ly/2K8nhLa)
+- [Today Weather para Android](http://bit.ly/2McksL1)
+- [Today Weather para iOS](https://apple.co/2OzGCIG)
