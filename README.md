@@ -11,7 +11,7 @@
 - [Cuál es el escándalo de Cambridge Analytica y Facebook](http://bit.ly/2NzJcOg)
 - [Las PWA han llegado a iOS](http://bit.ly/2N2rWQW)
 
-## Segunda etapa:
+## Segunda etapa:
 - [Construyendo una estructura web con CSS Grid](http://bit.ly/2K8nhLa)
 - [Today Weather para Android](http://bit.ly/2McksL1)
 - [Today Weather para iOS](https://apple.co/2OzGCIG)
