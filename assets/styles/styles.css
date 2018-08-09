@@ -29,6 +29,7 @@
     --color-youtube-dark: #282828;
     --color-medium: #00ab6c;
     --color-platzi: #98ca3f;
+    --color-vscode: #006FC5;
 
     --color-html: #E16E3C;
     --color-css: #54A8D7;
@@ -262,6 +263,10 @@ img {
 .block--js {
     background-color: var(--color-js);
     color: var(--color-dark);
+}
+
+.block--vscode {
+    background-color: var(--color-vscode);
 }
 
 .block:first-child {
