@@ -12,6 +12,7 @@
 - [Las PWA han llegado a iOS](http://bit.ly/2N2rWQW)
 
 ## Segunda etapa:
+- [App: Habitify](http://bit.ly/2O1vPtz);
 - [Mejorando la carga de un sitio web: imágenes vs velocidad](http://bit.ly/2NGwY9K);
 - [This en diferentes situaciones y su comportamiento](http://bit.ly/2nJvr47)
 - [Construyendo una estructura web con CSS Grid](http://bit.ly/2K8nhLa)
