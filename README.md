@@ -21,3 +21,6 @@
 - [Today Weather para iOS](https://apple.co/2OzGCIG)
 - [Progressive Web Apps](http://bit.ly/2vLF8ma)
 - [VSCode Theme: Code Blue](http://bit.ly/2AWVWwd)
+
+## Tercera etapa:
+- [Cómo ser un ingeniero 10x](https://www.youtube.com/watch?v=KOmSx3gnyeI);
